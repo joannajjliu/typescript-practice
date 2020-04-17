@@ -91,7 +91,7 @@ function add(num1: number = 6, num2?: number): number {
 add(5, 10);
 add(5);
 
-// Object type
+// Object (Interface) type
 interface Person {
     firstName: string;
     lastName?: string; //lastName is an optional property
